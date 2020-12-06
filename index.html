@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Groceries List App</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="showCreateNewUser" class="header">
+      <h2 style="margin: 5px">Create new user</h2>
+      <input type="text" id="userName" placeholder="Enter name" />
+      <span onclick="newUser()" class="addBtn">Create</span>
+    </div>
+    <!--<i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" /> -->
+    <div id="myDIV" class="header">
+      <h2 style="margin: 5px">My Groceries List</h2>
+      <h4 id="showLeftItem">Item left to add in list:  <span id="myText"></span></h4>
+      <input type="text" id="myGrocery" placeholder="Grocery..." />
+      <span onclick="addGroceries()" class=""
+        ><i class="fa fa-plus icon"></i
+      ></span>
+    </div>
+
+    <ul id="myUL">
+
+    <script src="./index.js"></script>
+  </body>
+</html>
